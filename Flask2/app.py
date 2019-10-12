@@ -108,7 +108,7 @@ class Multiply(Resource):
         x = int(x)
         y = int(y)
 
-        #Step 2: Multiply the posted data
+        #Step 2: Multiply the posted data (operation )
         ret = x*y
         retMap = {
             'Message': ret,
